@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Honda</title>
+    <!-- * @copyright   2020
+    * @version     1.0.0
+    * @author     Leticia Ingrid <leticiaingrid53@gmail.com> -->
+
+    <!-- BIBLIOTECA PARA O CARROSEL JQUERY -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css"/>
+    <!--  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/margin.css">
+</head>
+
+<body>
+     <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width:1366px;">
+        <div class="collapse navbar-collapse" id="textoNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                    <img src="./img/home-button.png" width="30" height="26" class="d-inline-block align-top" alt="">
+                    Ir para o Portal Banzai
+            </li>
+          </ul>
+          <span class="navbar-text" style="padding-right:15px;">
+            <img src="./img/place-logo.png" width="18" height="26" class="d-inline-block align-top" alt="">
+            Encontre uma concessionária
+          </span>
+        </br>
+          <span class="navbar-text">
+            <img src="./img/black-envelope@2x.png" width="24" height="19" class="d-inline-block align-top" alt="">
+            Fale Conosco
+          </span>
+        </div>
+    </nav>
+    <!-- FIM DO MENU -->
+    
+        <div class="row">    
+            <div class="col-xs-6 col-sm-6 col-md-6">
+                <img class="logo" src="./img/logo@2x.png" alt="Logo">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 number pull-right">
+                <h2 style="color: #727B7A; font-size: 16px;">Central de Atendimento</h2>
+                <h2 style="color: #DF0209; font-size: 26px;">(31) 3123-1234</h2>
+            </div>
+        </div>
+        <!-- FORMULÁRIO FIXADO -->
+        <form class="formulario">
+            <div class="titulo">
+                <img src="./img/Grupo 45.png" style="width: 35px;height: 35px;" alt="telefone">
+                <div class="titulo__texto">
+                    <h3>Solicitar um</h3>
+                    <h4>CONTATO</h4>
+                </div>
+            </div>
+
+            <div class="inputs" style="width: 230px; height: 36px;">
+                <div class="texto_aberto">
+                    <label>Nome</label>
+                    <input type="text" id="nome" placeholder=" Nome">
+
+                    <label>E-mail</label>
+                    <input type="text" id="e-mail" placeholder=" E-mail">
+
+                    <label>Telefone</label>
+                    <input type="text" id="telefone" placeholder=" Telefone">
+
+                    <label >Escolha o horário</label>
+                    <input type="text" id="horario" placeholder=" Escolha um horário">
+
+                    <label>Escolha a unidade</label>
+                    <select class="select" placeholder="Escolha a unidade">
+                        <option value="valor1">Escolha a unidade</option> 
+                    </select>
+                </div>
+                <input class="botao" type="submit" value="AGENDAR TEST DRIVE">
+            </div>
+        </form>
+        <!--  -->
+
+        <!-- BANNER PRINCIPAL -->
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="row">
+                <div  id="banner" style="position:relative; top:0px; left:0px;">
+                <img style="height:400px; width:1366px;"src="./img/Retângulo 1@2x.png" alt="Banner">
+                </div>
+                <div  id="logo" style="position:absolute; left:7%; top: 60%;">
+                    <img src="./img/os-eleitos-grande-vencedor-2017_0.png">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="row">
+            <label class="text-group mt-3"> A emoção de dirigir leva você mais longe</label>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- GALERIA DE IMAGENS -->
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="gallery" id="gallery">
+                <div class="coluna mt-3">
+                <img class="galeria"  src="./img/Retangulo 16.PNG" alt="Galeria">
+                <img class="galeria"  src="./img/Retangulo 19.PNG" alt="Galeria">
+                <img class="galeria"  src="./img/Retangulo 21.PNG" alt="Galeria">
+                </div>
+                <img src="./img/juntosi.png" style="width: 680px;height: 212px; margin-left:5%;">
+            </div>
+        </div>
+        <!--  -->
+
+        <label class="text-wrap mt-4">O novo Civic Geração 10 traz um design único mudando a categoria de sedãs para sempre. Ele garante a melhor dirigibilidade com o máximo em sofisticação e conforto, atribuído por seu design interno e diferenciada ergonomia.</label>
+        <!-- BANNER SECUNDÁRIO COM FRASE -->
+        <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="row">
+            <div  id="banner2">
+            <img src="./img/Retângulo 11.png" class="banner2" alt="Banner">
+            <label id="texto">PREPARE-SE PARA ALGO REALMENTE NOVO</label>
+            <label id="texto" style="font-size:18px; top: 90%;">O Novo Civic Geração 10 vem completo de série. Conheça a versão perfeita para você.</label>
+            </div>
+        </div>
+        </div>
+        <!--  -->
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="row">
+                <div class="carousel" style="width:700px; height:400px;">
+                    <div><img src="./img/07-DIRECAO_ELETRICA.png" alt="direção automática">
+                        <h3>Direção com assistência</h3>
+                        <p>Sistema de estabilidade que reforça automaticamente o retorno da direção, auxiliando o motorista em situações onde o carro está ameaçado de instabilidade.</p>
+                    </div>
+                    <div><img src="./img/08-VIDROS_ELETRICOS.PNG" alt="vidros elétricos">
+                        <h3>Vidros elétricos com subida automática</h3>
+                        <p>Todas as portas possuem vidros elétricos com a função “um toque” e sistema de segurança antiesmagamento.</p>
+                    </div>
+                    <div><img src="./img/01-CAMBIO_AUTOMATICO@2x.PNG" alt="cambio automático">
+                        <h3>Câmbio CVT com Paddle Shift</h3>
+                        <p>O câmbio com transmissão CVT de 7 velocidade com Paddle Shift (aletas) proporciona conforto ao trocar de marchas.</p>
+                    </div>
+                    <div><img src="./img/07-DIRECAO_ELETRICA.png" alt="direção automática">
+                        <h3>Direção com assistência</h3>
+                        <p>Sistema de estabilidade que reforça automaticamente o retorno da direção, auxiliando o motorista em situações onde o carro está ameaçado de instabilidade.</p>
+                    </div>
+                    <div><img src="./img/08-VIDROS_ELETRICOS.PNG" alt="vidros elétricos">
+                        <h3>Vidros elétricos com subida automática</h3>
+                        <p>Todas as portas possuem vidros elétricos com a função “um toque” e sistema de segurança antiesmagamento.</p>
+                    </div>
+                    <div><img src="./img/01-CAMBIO_AUTOMATICO@2x.PNG" alt="cambio automático">
+                        <h3>Câmbio CVT com Paddle Shift</h3>
+                        <p>O câmbio com transmissão CVT de 7 velocidade com Paddle Shift (aletas) proporciona conforto ao trocar de marchas.</p>
+                    </div>
+                </div>
+           </div>
+       </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="row">
+            <label class="text-group mt-3">Pronto para ter um Honda?</label>
+            <label class="text-wrap">Conheça os últimos grandes lançamentos da honda.</label>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/accord.PNG" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text">Novo Honda Accord: a combinação perfeita de três atributos exigidos pelo consumidor: elegância, luxo e alto desempenho.</p>
+                    <button type="button" class="btn btn-outline-secondary">CONHEÇA MAIS</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/city.PNG" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text">O City está muito mais moderno e esportivo. Com design único e mais tecnológico do que nunca, ele vai conquistar todos os olhares.</p>
+                    <button type="button" class="btn btn-outline-secondary">CONHEÇA MAIS</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/fit_2018.PNG" alt="Card image cap">
+                    <div class="card-body">
+                    <p class="card-text">Com seu design inconfundível, o novo Honda Fit traz novidades que vão surpreender a todos e atrair ainda mais fãs.</p>
+                    <button type="button" class="btn btn-outline-secondary">CONHEÇA MAIS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="row redesocial">
+                <div class="col-md-6">
+                    <div class="rede mt-3"  style="margin-left: 395px;">
+                        <div class="card-body icone-local">
+                            <p class="mini-card" style="margin-bottom: 0px;">Encontre uma</p>
+                            <p class="card-personalizado">CONCESSIONÁRIA</p>
+ 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="rede mt-3">
+                        <div class="card-body">
+                            <h2 style="color: #727B7A; font-size: 16px;">Central de Atendimento</h2>
+                            <h2 style="color: #DF0209; font-size: 26px;">(31) 3123-1234</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                    <p id="links">SIGA A BANZAI NAS REDES SOCIAIS</p> 
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="links2">
+                            <a href="#">
+                                <img style="padding:4px;" src="./img/Caminho 87.PNG">
+                            </a>
+                            <a href="#">
+                                <img style="padding:4px;" src="./img/Caminho 90.PNG">
+                            </a>
+                            <a href="#">
+                                <img style="padding:4px;" src="./img/ELipse 16.PNG">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="icones-footer">
+                <img src="./img/logo.png" style="width: 110px; height: 28px;" alt="logo-icon" class="logo-bottom">
+                <p>Todos juntos fazem um trânsito melhor</p>
+                <img src="./img/logo_ibama.png" style="width: 46px; height: 52px;" alt="">
+            </div>
+        </div>
+        
+     
+
+        
+</body>
+<!-- BIBLIOTECA PARA O CARROSEL JAVASCRIPT -->
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel-latest@1.9.0/slick/slick.min.js"></script>
+<!--  -->
+<script src="./script/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</html>

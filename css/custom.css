@@ -1,0 +1,347 @@
+#banner{
+    height:400px;
+    width:1366px;
+}
+.banner2{
+    width: 1366px;
+    height: 415px;
+    display: flex;
+}
+.logo {
+    margin: 3% auto;
+    height: 51px;
+    width: 200px;
+    margin-left: 114px;
+}
+.number{
+    padding-top: 10px;
+    letter-spacing: -0.7px;
+    width: 187px;
+    height: 21px;
+    text-align: left;
+    opacity: 1;
+}
+.text-group{
+    text-align: left;
+    font-size: 34px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left:100px;
+}
+.gallery{
+    align-items: center;
+    display: flex;
+}
+.gallery .coluna{
+    display: flex;
+    flex-direction: column;
+    width: 12em;
+    margin-left: 2.5rem;
+}
+.galeria{
+    margin-top: 4px;
+    border: solid #EEEEEE 1px;
+    opacity:1;
+    width: 165px; 
+    height: 96px;
+    margin-left: 45px;
+    background-repeat: no-repeat;
+}
+.text-wrap{
+    width: 870px;
+    height: 63px;
+    text-align: left;
+    font: Regular 18px/24px FoundryMonoline-Regular ☞;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 100px;
+    top: 973px;
+    left: 95px;}
+#texto{
+    color: #ffffff;
+    font-size: 34px;
+    position: absolute;
+    left: 100px;
+    top: 80%;
+    letter-spacing: 0px;
+}
+.carousel {
+    left:100px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+button.slick-next {
+    position: absolute;
+    top: 28%;
+    right: 3%;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    font-size: 0pt;
+    border-radius: 20px;
+    background: url('../img/keyboard-right-arrow.png') center center/13px no-repeat;
+}
+button.slick-prev {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    font-size: 0pt;
+    border-radius: 20px;
+    background: url('../img/chevron-right.png') center center/13px no-repeat;
+}
+.carousel img {
+    width: 100%;
+    border: 1px solid #C5C5C5;
+    padding: 2%;
+    position: relative;
+    margin-right: 5px;
+}
+.slick-slide img {
+    display: block;
+}
+.carousel h3{
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+}
+.carousel p{
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+}
+.formulario {
+    background: #eeeeee ;
+    left: 75vw;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 30%;
+    right: 5vw;
+    z-index: 100;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: .5rem;
+    width: 270px;
+    height: 352px;
+}
+
+.formulario .titulo {
+    align-items: center;
+    display: flex;
+    margin-left: 2.4rem;
+}
+
+.formulario .titulo img {
+    margin-right: .7rem;
+}
+
+.titulo__texto h3 {
+    color: #727B7A;
+    font-size: 1rem;
+}
+    
+.titulo__texto h4 {
+    color: #DF0209;
+    font-size: 14px;
+}
+
+.formulario label {
+    font-size: 0.0001px;
+}
+
+.formulario .inputs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.botao input{
+    width: auto;
+    background-color: #1CB72A;
+    border-style: none;
+    margin-left:30px;
+}
+
+.formulario .inputs .texto_aberto {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .inputs .texto_aberto input{
+    background-color: #eeeeee;
+    background-size: 1.2rem;
+    background-position: .5rem;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-radius: .3rem;
+    border-color: #d5d5d5;
+    height: 32px;
+    width: 15rem;
+    text-indent: 30px;
+    margin-left:30px;
+}
+
+.select{
+    background-color: #eeeeee;
+    background-size: 1.2rem;
+    background-position: .5rem;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-radius: .3rem;
+    border-color: #d5d5d5;
+    color: #00000061;
+    height: 32px;
+    width: 15rem;
+    text-indent: 30px;
+    float: left;
+    background: url('../img/place-logo.png') left/18px no-repeat;
+    margin-left:30px;
+}
+::-webkit-input-placeholder{
+    color: #00000061;
+  }
+
+.formulario .inputs .texto_aberto #nome {
+    background-image: url("../img//Grupo 32.png");
+}
+
+.formulario .inputs .texto_aberto #e-mail{
+    background-image: url("../img/black-envelope.png");
+}
+
+.formulario .inputs .texto_aberto #telefone {
+    background-image: url("../img/call-answer.png");
+}
+
+.formulario .inputs .texto_aberto #horario {
+    background-image: url("../img/clock-circular-outline.png");
+    background-position: .5rem;
+}
+
+.formulario .inputs .texto_aberto .select {
+    background-image: url("../img/maps.png");
+}
+
+.formulario .inputs input + label, 
+.formulario .inputs input + input
+{
+    margin-top: .3rem;
+}
+
+.botao{
+    background-color: #1CB72A;
+    border-style: none;
+    border-radius: .3rem;
+    color: #fff;
+    margin-top: .5rem;
+    padding: 5px;
+    width: 235px;
+    height: 40px;
+    margin-left: 30px;
+}
+.card{
+    left:70px;
+    margin:30px;
+    width: 270px;
+    height: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D5D5D5;
+    opacity: 1;
+}
+.card-img-top{
+    width: 211px;
+    height: 179px;
+}
+.card .card-text{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.btn-outline-secondary{
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    opacity: 1;
+    width: 230px;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.redesocial{
+    width: 1366px;
+    height: 228px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rede{
+    width: 270px;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DF0209;
+    border-radius: 5px;
+    opacity: 1;
+}
+.mini-card{
+    text-align: left;
+    font-size: 14px;
+    font-family: Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 3% 20%;
+    }
+.card-personalizado{
+    text-align: left;
+    letter-spacing: NaNpx;
+    color: #DF0209;
+    opacity: 1;
+    margin: 3% 20%;
+}
+#links{
+    font-size: 18pt;
+    margin: 3% 4%;
+    margin: 0 auto;
+}
+.footer {
+    text-align: center;
+    padding: 5% auto;
+}
+
+.footer img {
+    margin: 5% auto;
+}
+
+.icones-footer {
+    display: flex;
+
+}
+
+.icones-footer p {
+    display: flex;
+    margin: auto 5%;
+    font-size: 12px;
+}
+.icone-local{
+    text-align: left;
+    font-size: 16pt;
+    padding: 3% 0 3% 10%;
+    background: url('../img/place-logo.png') left center no-repeat;
+    background-position: left 3% center;
+    line-height: 1.0;
+}
+.links2{
+    margin: 0 auto;
+}
